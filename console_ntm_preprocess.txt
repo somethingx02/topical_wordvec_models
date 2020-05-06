@@ -1,0 +1,61 @@
+zlx@amax:~/data_1/neural_topic_models/theano_code$ /data_1/zlx2/anaconda35/bin/python3 preprocess_data.py ../data/20ng/20ng_all/train.json ../data/20ng/20ng_all/test.json ../data/20ng/20ng_all/ --malletstop
+
+ading SpaCy
+Using MALLET stopwords
+Reading data files
+Parsing 11314 documents
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+Size of full vocabulary=142386
+Most common words:
+subject 11314 12259
+lines 11277 11826
+organization 10867 11220
+writes 5751 7837
+n't 5722 15151
+article 5270 7433
+posting 5086 5507
+host 4834 4972
+nntp 4775 4803
+university 4434 5576
+distribution 2633 2765
+people 2545 5971
+time 2411 4077
+good 2310 3752
+reply 2302 2461
+1 1982 6395
+make 1972 2887
+ca 1931 2695
+world 1875 2558
+2 1849 4625
+First document:
+lerxst@wam.umd.edu thing subject car nntp posting host rac3.wam.umd.edu organization university maryland college park lines 15 wondering enlighten car day 2-door sports car looked late 60s/ early 70s called bricklin doors small addition front bumper separate rest body tellme model engine specs years production car made history info funky car mail il brought neighborhood lerxst
+Converting to count representations
+Found 11314 non-empty documents
+Total tokens = 864620
+Using MALLET stopwords
+Reading data files
+Parsing 7532 documents
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+Size of full vocabulary=95950
+First document:
+v064mb9k@ubvmsd.cc.buffalo.edu neil b. gandler subject info 88 89 bonneville organization university buffalo lines 10 news software vax vms vnews 1.41 nntp posting host ubvmsd.cc.buffalo.edu confused models 88 89 bonnevilles heard le se lse sse ssei differences features performance curious book prefereably 89 model book words demand time year heard mid spring early summer time buy neil gandler
+Converting to count representations
+Found 7532 non-empty documents
+Total tokens = 549763
+
