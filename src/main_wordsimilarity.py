@@ -382,7 +382,7 @@ if __name__ == '__main__':
 
     # ==========Compute the word similarities for vocabularized benchmarks
     compute_and_output_wordcossim(
-        param_fpathin_vocab2vec=('%s/99/aggrd_all_wordrep.txt'
+        param_fpathin_vocab2vec=('%s/47/aggrd_all_wordrep.txt'
                                  % SAVE_DIR),
         param_fpathin_gold_vocad='../datasets/wordsim353_agreed_vocad.txt',
         mtype='TopicalWordEmbedding')
