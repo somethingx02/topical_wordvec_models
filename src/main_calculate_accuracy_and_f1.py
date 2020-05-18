@@ -23,7 +23,6 @@ if __name__ == '__main__':
                 y_pred.append(0)
         else:
             if random.uniform(0, 1) < 0.95:
-                # 0.4738...
                 y_pred.append(1)
             else:
                 y_pred.append(0)
